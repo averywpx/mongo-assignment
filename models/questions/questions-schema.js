@@ -3,5 +3,5 @@ const questionsSchema = mongoose.Schema({
     question: String,
     options: [String],
     quizId: String
-}, {collection: 'quizzes'})
+}, {collection: 'questions'})
 module.exports = questionsSchema
